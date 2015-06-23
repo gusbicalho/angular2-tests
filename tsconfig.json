@@ -11,5 +11,5 @@
     "sourceMap": true,
     "listFiles": true
   },
-  "files": []
+  "files": ["app/init.ts"]
 }
