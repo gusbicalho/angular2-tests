@@ -1,0 +1,7 @@
+<ul>
+  <li *ng-for="#item of items; #i = index">
+    <editable-text [item]="item" (change)="replace(i,$event)"></editable-text>
+    <a href="#" (click)="delItem(i)">&times;</a>
+  </li>
+</ul>
+<input #new-item-input (keyup) (keypress)="newItemInputKeyPress($event)" />
